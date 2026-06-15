@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Control_flow/Assessment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Control_flow/Assignment/LEVEL1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Control_flow/Assignment/LEVEL2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Methods/Assessment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Methods/Assignment/LEVEL1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Methods/Assignment/LEVEL2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/Programming-elements/Assessment" isTestSource="false" />
@@ -16,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/String/Assignment/LEVEL1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Core_java_practice/gcr_codebase/String/Assignment/LEVEL2" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/out" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
