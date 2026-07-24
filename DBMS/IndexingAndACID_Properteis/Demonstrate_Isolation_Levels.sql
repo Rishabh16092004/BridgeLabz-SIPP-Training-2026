@@ -1,0 +1,22 @@
+USE COVID_DB;
+
+-- Session 1
+SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED;
+START TRANSACTION;
+
+SELECT * FROM covid_cases
+WHERE Country = 'India';
+
+COMMIT;
+
+-- Session 2
+SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ;
+START TRANSACTION;
+
+UPDATE covid_cases
+SET Confirmed_Cases = Confirmed_Cases + 100
+WHERE Country = 'India';
+
+COMMIT;
+
+-- SERIALIZABLE can be used to prevent phantom reads.
